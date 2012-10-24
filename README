@@ -1,0 +1,6 @@
+Snake by AbuDhabi
+
+It's a simple Snake game that I've written in the past. Use arrow keys to change direction, space to speed up temporarily.
+Under Linux, it requires SDL and SDL_gfx to run. Under Windows, it's standalone.
+
+Thanks to McMartin, who helped me with the code.
