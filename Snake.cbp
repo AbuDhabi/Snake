@@ -16,6 +16,8 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add library="SDL" />
+					<Add library="SDL_gfx" />
 				</Linker>
 			</Target>
 		</Build>
@@ -26,8 +28,11 @@
 		<Linker>
 			<Add option="`sdl-config --libs`" />
 		</Linker>
+		<Unit filename="apple.bmp" />
 		<Unit filename="cb.bmp" />
-		<Unit filename="main.cpp" />
+		<Unit filename="gameover.bmp" />
+		<Unit filename="icon.bmp" />
+		<Unit filename="snake.cpp" />
 		<Extensions>
 			<envvars />
 			<code_completion />
